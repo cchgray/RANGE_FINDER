@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A8E637F19069C1F005762FE"
-               BuildableName = "camtest2.app"
-               BlueprintName = "camtest2"
-               ReferencedContainer = "container:camtest2.xcodeproj">
+               BuildableName = "Range Finder.app"
+               BlueprintName = "Range Finder"
+               ReferencedContainer = "container:Range Finder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A8E63A019069C1F005762FE"
-               BuildableName = "camtest2Tests.xctest"
-               BlueprintName = "camtest2Tests"
-               ReferencedContainer = "container:camtest2.xcodeproj">
+               BuildableName = "Range FinderTests.xctest"
+               BlueprintName = "Range FinderTests"
+               ReferencedContainer = "container:Range Finder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4A8E637F19069C1F005762FE"
-            BuildableName = "camtest2.app"
-            BlueprintName = "camtest2"
-            ReferencedContainer = "container:camtest2.xcodeproj">
+            BuildableName = "Range Finder.app"
+            BlueprintName = "Range Finder"
+            ReferencedContainer = "container:Range Finder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4A8E637F19069C1F005762FE"
-            BuildableName = "camtest2.app"
-            BlueprintName = "camtest2"
-            ReferencedContainer = "container:camtest2.xcodeproj">
+            BuildableName = "Range Finder.app"
+            BlueprintName = "Range Finder"
+            ReferencedContainer = "container:Range Finder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4A8E637F19069C1F005762FE"
-            BuildableName = "camtest2.app"
-            BlueprintName = "camtest2"
-            ReferencedContainer = "container:camtest2.xcodeproj">
+            BuildableName = "Range Finder.app"
+            BlueprintName = "Range Finder"
+            ReferencedContainer = "container:Range Finder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

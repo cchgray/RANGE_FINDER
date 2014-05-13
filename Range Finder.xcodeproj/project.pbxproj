@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A7C5116192287E500CF373B /* _imageSnowflake.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C5112192287E500CF373B /* _imageSnowflake.png */; };
+		4A7C5117192287E500CF373B /* crosshair-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C5113192287E500CF373B /* crosshair-md.png */; };
+		4A7C5118192287E500CF373B /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C5114192287E500CF373B /* images.jpeg */; };
+		4A7C5119192287E500CF373B /* infobackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C5115192287E500CF373B /* infobackground.jpg */; };
+		4A7C511C19228C1600CF373B /* InfoPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C511B19228C1600CF373B /* InfoPage.m */; };
 		4A8E638419069C1F005762FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8E638319069C1F005762FE /* Foundation.framework */; };
 		4A8E638619069C1F005762FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8E638519069C1F005762FE /* CoreGraphics.framework */; };
 		4A8E638819069C1F005762FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8E638719069C1F005762FE /* UIKit.framework */; };
@@ -21,6 +26,7 @@
 		4A8E63A519069C1F005762FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8E638719069C1F005762FE /* UIKit.framework */; };
 		4A8E63AD19069C1F005762FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63AB19069C1F005762FE /* InfoPlist.strings */; };
 		4A8E63AF19069C1F005762FE /* camtest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8E63AE19069C1F005762FE /* camtest2Tests.m */; };
+		4AA7466A1922C8FE006E5BB7 /* Nee 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA746691922C8FE006E5BB7 /* Nee 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +40,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A8E638019069C1F005762FE /* camtest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camtest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7C5112192287E500CF373B /* _imageSnowflake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _imageSnowflake.png; sourceTree = "<group>"; };
+		4A7C5113192287E500CF373B /* crosshair-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crosshair-md.png"; sourceTree = "<group>"; };
+		4A7C5114192287E500CF373B /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		4A7C5115192287E500CF373B /* infobackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = infobackground.jpg; sourceTree = "<group>"; };
+		4A7C511A19228C1600CF373B /* InfoPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPage.h; sourceTree = "<group>"; };
+		4A7C511B19228C1600CF373B /* InfoPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPage.m; sourceTree = "<group>"; };
+		4A8E638019069C1F005762FE /* Range Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Range Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8E638319069C1F005762FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A8E638519069C1F005762FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4A8E638719069C1F005762FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4A8E638B19069C1F005762FE /* camtest2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "camtest2-Info.plist"; sourceTree = "<group>"; };
+		4A8E638B19069C1F005762FE /* Range Finder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Range Finder-Info.plist"; sourceTree = "<group>"; };
 		4A8E638D19069C1F005762FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A8E638F19069C1F005762FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A8E639119069C1F005762FE /* camtest2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "camtest2-Prefix.pch"; sourceTree = "<group>"; };
+		4A8E639119069C1F005762FE /* Range Finder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Range Finder-Prefix.pch"; sourceTree = "<group>"; };
 		4A8E639219069C1F005762FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A8E639319069C1F005762FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A8E639619069C1F005762FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A8E639819069C1F005762FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4A8E639919069C1F005762FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4A8E639B19069C1F005762FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4A8E63A119069C1F005762FE /* camtest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = camtest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8E639B19069C1F005762FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = camtest2/Images.xcassets; sourceTree = "<group>"; };
+		4A8E63A119069C1F005762FE /* Range FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Range FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8E63A219069C1F005762FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4A8E63AA19069C1F005762FE /* camtest2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "camtest2Tests-Info.plist"; sourceTree = "<group>"; };
+		4A8E63AA19069C1F005762FE /* Range FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Range FinderTests-Info.plist"; sourceTree = "<group>"; };
 		4A8E63AC19069C1F005762FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A8E63AE19069C1F005762FE /* camtest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = camtest2Tests.m; sourceTree = "<group>"; };
+		4AA746691922C8FE006E5BB7 /* Nee 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Nee 4.jpg"; path = "../Nee 4.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A7C5111192287E500CF373B /* cam2 images */ = {
+			isa = PBXGroup;
+			children = (
+				4AA746691922C8FE006E5BB7 /* Nee 4.jpg */,
+				4A7C5112192287E500CF373B /* _imageSnowflake.png */,
+				4A7C5113192287E500CF373B /* crosshair-md.png */,
+				4A7C5114192287E500CF373B /* images.jpeg */,
+				4A7C5115192287E500CF373B /* infobackground.jpg */,
+			);
+			name = "cam2 images";
+			path = "../../../cam2 images";
+			sourceTree = "<group>";
+		};
 		4A8E637719069C1F005762FE = {
 			isa = PBXGroup;
 			children = (
@@ -86,14 +112,16 @@
 				4A8E63A819069C1F005762FE /* camtest2Tests */,
 				4A8E638219069C1F005762FE /* Frameworks */,
 				4A8E638119069C1F005762FE /* Products */,
+				4A8E639B19069C1F005762FE /* Images.xcassets */,
+				4A7C5111192287E500CF373B /* cam2 images */,
 			);
 			sourceTree = "<group>";
 		};
 		4A8E638119069C1F005762FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A8E638019069C1F005762FE /* camtest2.app */,
-				4A8E63A119069C1F005762FE /* camtest2Tests.xctest */,
+				4A8E638019069C1F005762FE /* Range Finder.app */,
+				4A8E63A119069C1F005762FE /* Range FinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,8 +145,9 @@
 				4A8E639519069C1F005762FE /* Main.storyboard */,
 				4A8E639819069C1F005762FE /* ViewController.h */,
 				4A8E639919069C1F005762FE /* ViewController.m */,
-				4A8E639B19069C1F005762FE /* Images.xcassets */,
 				4A8E638A19069C1F005762FE /* Supporting Files */,
+				4A7C511A19228C1600CF373B /* InfoPage.h */,
+				4A7C511B19228C1600CF373B /* InfoPage.m */,
 			);
 			path = camtest2;
 			sourceTree = "<group>";
@@ -126,10 +155,10 @@
 		4A8E638A19069C1F005762FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A8E638B19069C1F005762FE /* camtest2-Info.plist */,
+				4A8E638B19069C1F005762FE /* Range Finder-Info.plist */,
 				4A8E638C19069C1F005762FE /* InfoPlist.strings */,
 				4A8E638F19069C1F005762FE /* main.m */,
-				4A8E639119069C1F005762FE /* camtest2-Prefix.pch */,
+				4A8E639119069C1F005762FE /* Range Finder-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +175,7 @@
 		4A8E63A919069C1F005762FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A8E63AA19069C1F005762FE /* camtest2Tests-Info.plist */,
+				4A8E63AA19069C1F005762FE /* Range FinderTests-Info.plist */,
 				4A8E63AB19069C1F005762FE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A8E637F19069C1F005762FE /* camtest2 */ = {
+		4A8E637F19069C1F005762FE /* Range Finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A8E63B219069C1F005762FE /* Build configuration list for PBXNativeTarget "camtest2" */;
+			buildConfigurationList = 4A8E63B219069C1F005762FE /* Build configuration list for PBXNativeTarget "Range Finder" */;
 			buildPhases = (
 				4A8E637C19069C1F005762FE /* Sources */,
 				4A8E637D19069C1F005762FE /* Frameworks */,
@@ -167,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = camtest2;
+			name = "Range Finder";
 			productName = camtest2;
-			productReference = 4A8E638019069C1F005762FE /* camtest2.app */;
+			productReference = 4A8E638019069C1F005762FE /* Range Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A8E63A019069C1F005762FE /* camtest2Tests */ = {
+		4A8E63A019069C1F005762FE /* Range FinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A8E63B519069C1F005762FE /* Build configuration list for PBXNativeTarget "camtest2Tests" */;
+			buildConfigurationList = 4A8E63B519069C1F005762FE /* Build configuration list for PBXNativeTarget "Range FinderTests" */;
 			buildPhases = (
 				4A8E639D19069C1F005762FE /* Sources */,
 				4A8E639E19069C1F005762FE /* Frameworks */,
@@ -185,9 +214,9 @@
 			dependencies = (
 				4A8E63A719069C1F005762FE /* PBXTargetDependency */,
 			);
-			name = camtest2Tests;
+			name = "Range FinderTests";
 			productName = camtest2Tests;
-			productReference = 4A8E63A119069C1F005762FE /* camtest2Tests.xctest */;
+			productReference = 4A8E63A119069C1F005762FE /* Range FinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A8E637B19069C1F005762FE /* Build configuration list for PBXProject "camtest2" */;
+			buildConfigurationList = 4A8E637B19069C1F005762FE /* Build configuration list for PBXProject "Range Finder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +246,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A8E637F19069C1F005762FE /* camtest2 */,
-				4A8E63A019069C1F005762FE /* camtest2Tests */,
+				4A8E637F19069C1F005762FE /* Range Finder */,
+				4A8E63A019069C1F005762FE /* Range FinderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +259,12 @@
 			files = (
 				4A8E639C19069C1F005762FE /* Images.xcassets in Resources */,
 				4A8E638E19069C1F005762FE /* InfoPlist.strings in Resources */,
+				4A7C5116192287E500CF373B /* _imageSnowflake.png in Resources */,
 				4A8E639719069C1F005762FE /* Main.storyboard in Resources */,
+				4AA7466A1922C8FE006E5BB7 /* Nee 4.jpg in Resources */,
+				4A7C5117192287E500CF373B /* crosshair-md.png in Resources */,
+				4A7C5118192287E500CF373B /* images.jpeg in Resources */,
+				4A7C5119192287E500CF373B /* infobackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +285,7 @@
 			files = (
 				4A8E639A19069C1F005762FE /* ViewController.m in Sources */,
 				4A8E639419069C1F005762FE /* AppDelegate.m in Sources */,
+				4A7C511C19228C1600CF373B /* InfoPage.m in Sources */,
 				4A8E639019069C1F005762FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		4A8E63A719069C1F005762FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A8E637F19069C1F005762FE /* camtest2 */;
+			target = 4A8E637F19069C1F005762FE /* Range Finder */;
 			targetProxy = 4A8E63A619069C1F005762FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,9 +412,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "camtest2/camtest2-Prefix.pch";
-				INFOPLIST_FILE = "camtest2/camtest2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "camtest2/Range Finder-Prefix.pch";
+				INFOPLIST_FILE = "camtest2/Range Finder-Info.plist";
+				PRODUCT_NAME = "Range Finder";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,9 +425,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "camtest2/camtest2-Prefix.pch";
-				INFOPLIST_FILE = "camtest2/camtest2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "camtest2/Range Finder-Prefix.pch";
+				INFOPLIST_FILE = "camtest2/Range Finder-Info.plist";
+				PRODUCT_NAME = "Range Finder";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +447,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "camtest2Tests/camtest2Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "camtest2Tests/Range FinderTests-Info.plist";
+				PRODUCT_NAME = "Range FinderTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +465,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "camtest2/camtest2-Prefix.pch";
-				INFOPLIST_FILE = "camtest2Tests/camtest2Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "camtest2Tests/Range FinderTests-Info.plist";
+				PRODUCT_NAME = "Range FinderTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A8E637B19069C1F005762FE /* Build configuration list for PBXProject "camtest2" */ = {
+		4A8E637B19069C1F005762FE /* Build configuration list for PBXProject "Range Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A8E63B019069C1F005762FE /* Debug */,
@@ -449,21 +484,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A8E63B219069C1F005762FE /* Build configuration list for PBXNativeTarget "camtest2" */ = {
+		4A8E63B219069C1F005762FE /* Build configuration list for PBXNativeTarget "Range Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A8E63B319069C1F005762FE /* Debug */,
 				4A8E63B419069C1F005762FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4A8E63B519069C1F005762FE /* Build configuration list for PBXNativeTarget "camtest2Tests" */ = {
+		4A8E63B519069C1F005762FE /* Build configuration list for PBXNativeTarget "Range FinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A8E63B619069C1F005762FE /* Debug */,
 				4A8E63B719069C1F005762FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
